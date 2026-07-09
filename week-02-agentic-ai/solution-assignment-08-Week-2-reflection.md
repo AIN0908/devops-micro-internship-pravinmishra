@@ -64,7 +64,7 @@ Blog Link:
 
 Share your Week 2 learning publicly on LinkedIn.
 
----
+https://www.linkedin.com/posts/abraham-inwang-695a67216_the-real-world-task-i-just-completed-the-ugcPost-7480587521295523840-qd0_/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaeMREBp9wR-dEl9T_L6Ru07p5uCgcZniE
 
 ### LinkedIn Post Requirements
 
@@ -94,7 +94,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 Add your screenshot here.
 
----
+![LinkedIn post](image-43.png)
 
 ### Submission Field
 
@@ -110,7 +110,7 @@ Paste your LinkedIn post content here
 
 `__________________________________________`
 
----
+https://www.linkedin.com/posts/abraham-inwang-695a67216_the-real-world-task-i-just-completed-the-ugcPost-7480587521295523840-qd0_/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaeMREBp9wR-dEl9T_L6Ru07p5uCgcZniE
 
 # Submission Instructions
 

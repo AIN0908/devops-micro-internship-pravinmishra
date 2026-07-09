@@ -22,7 +22,7 @@ Identify where Claude Code stores memory for this project.
 
 Add your screenshot here.
 
----
+![Memory file path](image-38.png)
 
 # Task 2 — Give Claude Information to Remember
 
@@ -36,7 +36,7 @@ Store project-specific rules and configurations into Claude’s memory and verif
 
 Add your screenshot here.
 
----
+![memory saved](image-39.png)
 
 #### Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
@@ -56,7 +56,7 @@ Terminate the current Claude Code session and restart it to ensure memory is the
 
 Add your screenshot here.
 
----
+![Vs code reopened](image-40.png)
 
 # Task 4 — Prove Memory Recall Across Sessions
 
@@ -70,13 +70,13 @@ Verify that Claude correctly recalls stored memory after a full session reset.
 
 Add your screenshot here.
 
----
+![Hero section](image-41.png)
 
 #### Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
 Add your screenshot here.
 
----
+![Claude refusing](image-42.png)
 
 # Submission Instructions
 
@@ -93,7 +93,7 @@ Paste your forked repository URL here:
 
 `__________________________`
 
----
+https://github.com/AIN0908/devops-micro-internship-pravinmishra/tree/main/week-02-agentic-ai
 
 # Completion Checklist
 
