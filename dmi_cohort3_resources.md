@@ -132,6 +132,11 @@ LinkedIn posts are evaluated separately:
 
 ---
 
+<<<<<<< HEAD
+=======
+---
+
+>>>>>>> 3f8b8b7 (Updated resources file for week 3)
 ## Week-3 — Linux for DevOps with Bash Scripting
 
 | S. No. | Item | Comments | Link |
