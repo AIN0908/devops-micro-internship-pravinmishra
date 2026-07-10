@@ -130,13 +130,8 @@ LinkedIn posts are evaluated separately:
 | Screenshot of post included         | 5      |
 | **Total per LinkedIn post**         | **20** |
 
----
+--
 
-<<<<<<< HEAD
-=======
----
-
->>>>>>> 3f8b8b7 (Updated resources file for week 3)
 ## Week-3 — Linux for DevOps with Bash Scripting
 
 | S. No. | Item | Comments | Link |
