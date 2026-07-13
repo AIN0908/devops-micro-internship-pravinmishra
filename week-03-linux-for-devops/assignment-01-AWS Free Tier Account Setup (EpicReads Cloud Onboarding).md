@@ -22,19 +22,50 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 
 Write your answer here.
 
+<<<<<<< HEAD
 From my understanding, an AWS account is the gateway to Amazon Web Services, giving users/subscribers access to cloud infrastructure, tools, and services. As a DevOps engineer, it is needed to build, automate, and manage scalable systems, implement CI/CD pipelines, and ensure secure, efficient software delivery.
+=======
+<<<<<<< HEAD
+An AWS account is a unique identity that provides access to AWS services, resources, and billing. In my understanding, it includes credentials, permissions, and configurations.
+
+I understand that it has both Root user & IAM: 
+The account starts with a root user, but DevOps engineers typically create IAM roles and policies to securely manage access.
+
+Why I need it at this stage.
+
+So that I can use the tools available to define and deploy infrastructure consistently.
+=======
+>>>>>>> b0f59795762ae52e6599eddd97357798c0d88c59
+---
+>>>>>>> 7c26ee001c8e0916fd7f017dc3e35171a467e192
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
 Write your answer here.
 
+<<<<<<< HEAD
 Having gone through a few of the documentations, I understand that AWS Free Tier lets new customers explore AWS services at no cost for up to six months or until their credits run out. 
 
 I understand further that some services are “Always Free” with usage limits, meaning you can keep using them indefinitely as long as you stay within those limits.
+=======
+<<<<<<< HEAD
+In my understanding, AWS Free Tier lets new customers explore AWS services at no cost for up to six months or until their credits run out. 
+
+In addition, some services are “Always Free” with usage limits, meaning you can keep using them indefinitely as long as you stay within those limits.
+=======
+>>>>>>> b0f59795762ae52e6599eddd97357798c0d88c59
+---
+>>>>>>> 7c26ee001c8e0916fd7f017dc3e35171a467e192
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
 Write your answer here.
+<<<<<<< HEAD
+Amazon EC2
+Amazon S3
+Amazon RDS
+=======
+>>>>>>> b0f59795762ae52e6599eddd97357798c0d88c59
 
 Amazon EC2: 	750 hours/month (t2.micro/t3.micro)
 Amazon S3:  5 GB storage, 20k GET, 2k PUT requests
@@ -62,7 +93,15 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 
 Add your screenshot here.
 
+<<<<<<< HEAD
 ![AWS account page](image.png)
+=======
+<<<<<<< HEAD
+![AWS account](image.png)
+=======
+---
+>>>>>>> b0f59795762ae52e6599eddd97357798c0d88c59
+>>>>>>> 7c26ee001c8e0916fd7f017dc3e35171a467e192
 
 # Submission Instructions
 
