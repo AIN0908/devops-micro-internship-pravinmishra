@@ -24,95 +24,57 @@ Add your screenshot here.
 
 ![settings.json](image-35.png)
 
-# Task 2 — Create the UserPromptSubmit Hook Script
+# Task 2 — Add the UserPromptSubmit Hook
 
 ## Goal
 
-Create a hook that checks user prompts before Claude processes them and blocks requests containing destructive intent.
+Add a hook that intercepts user prompts before Claude starts execution and blocks destructive intent.
 
 ### Evidence
 
-#### Screenshot 2 — `user-prompt-guard.sh` open in VS Code showing the hook script
-
-![UserPrompt](image-36.png)
-
----
-
-# Task 3 — Create the PreToolUse Hook Script
-
-## Goal
-
-Create a hook that runs before Claude executes Bash commands and blocks dangerous infrastructure commands.
-
-### Evidence
-
-#### Screenshot 3 — `pre-tool-guard.sh` open in VS Code showing the hook script
-
-![permissions](image-37.png)
-
----
-
-# Task 4 — Create the PostToolUse Hook Script
-
-## Goal
-
-Create a hook that runs after Claude executes a Bash command and logs selected Terraform commands.
-
-### Evidence
-
-#### Screenshot 4 — `post-tool-logger.sh` open in VS Code showing the hook script
+#### Screenshot 2 — settings.json showing UserPromptSubmit hook
 
 Add your screenshot here.
 
 ---
 
-# Task 5 — Configure settings.json to Connect Hook Scripts
+# Task 3 — Add the PreToolUse Hook
 
 ## Goal
 
-Configure Claude Code permissions and connect the hook scripts created in the previous tasks.
+Extend `settings.json` with a PreToolUse hook that blocks dangerous Bash commands before execution.
 
 ### Evidence
 
-#### Screenshot 5 — `settings.json` open in VS Code showing permissions and hooks configuration
+#### Screenshot 3 — full settings.json with permissions and hooks
 
 Add your screenshot here.
 
 ---
 
-# Task 6 — Test the UserPromptSubmit Hook
+# Task 4 — Test the UserPromptSubmit Hook
 
 ## Goal
 
-Prove the prompt-level hook works by typing a destructive prompt and verifying it is blocked before Claude processes the request.
+Verify that destructive prompts are blocked before Claude begins execution.
 
 ### Evidence
 
-#### Screenshot 6 — UserPromptSubmit hook blocking the destructive prompt
+#### Screenshot 4 — blocked prompt due to UserPromptSubmit hook
+
+Add your screenshot here.
 
 ---
 
-# Task 7 — Test the PreToolUse Hook
+# Task 5 — Test the PreToolUse Hook
 
 ## Goal
 
-Prove the tool-level hook works by asking Claude to execute a dangerous Bash command.
+Verify that dangerous commands are intercepted before execution by the PreToolUse hook.
 
 ### Evidence
 
-#### Screenshot 7 — PreToolUse hook blocking terraform destroy
-
----
-
-# Task 8 — Test the PostToolUse Logging Hook
-
-## Goal
-
-Prove the logging hook runs after a successful command execution and records Terraform operations.
-
-### Evidence
-
-#### Screenshot 8 — Claude running terraform validate successfully
+#### Screenshot 5 — PreToolUse hook blocking terraform destroy
 
 #### Screenshot 9 — `.claude/deploy.log` showing the logged command
 
@@ -120,20 +82,17 @@ Prove the logging hook runs after a successful command execution and records Ter
 
 # Submission Instructions
 
-Complete all tasks in sequence.
+- Ensure `.claude/settings.json` is committed to your GitHub repository
+- Run both hook tests successfully and capture required screenshots
+- Push final changes to your forked repository
 
-<<<<<<< HEAD
 ---
 
 ## GitHub Repository URL
 
 Paste your forked repository URL here:
 
-`github`https://github.com/AIN0908/devops-micro-internship-pravinmishra/tree/main/week-02-agentic-ai
-=======
-Your submission must include:
-- All 9 required screenshots
->>>>>>> 68a42de (Week 02 Assignment 6 template updated)
+`__________________________`
 
 ---
 
