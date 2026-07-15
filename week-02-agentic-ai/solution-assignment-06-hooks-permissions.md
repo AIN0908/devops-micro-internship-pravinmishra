@@ -80,19 +80,64 @@ Add your screenshot here.
 
 ---
 
+# Task 6 — Test the UserPromptSubmit Hook
+
+## Goal
+
+Prove the prompt-level hook works by typing a destructive prompt and verifying it is blocked before Claude processes the request.
+
+### Evidence
+
+#### Screenshot 6 — UserPromptSubmit hook blocking the destructive prompt
+
+---
+
+# Task 7 — Test the PreToolUse Hook
+
+## Goal
+
+Prove the tool-level hook works by asking Claude to execute a dangerous Bash command.
+
+### Evidence
+
+#### Screenshot 7 — PreToolUse hook blocking terraform destroy
+
+---
+
+# Task 8 — Test the PostToolUse Logging Hook
+
+## Goal
+
+Prove the logging hook runs after a successful command execution and records Terraform operations.
+
+### Evidence
+
+#### Screenshot 8 — Claude running terraform validate successfully
+
+#### Screenshot 9 — `.claude/deploy.log` showing the logged command
+
+---
+
 # Submission Instructions
 
-- Ensure `.claude/settings.json` is committed to your GitHub repository
-- Run both hook tests successfully and capture required screenshots
-- Push final changes to your forked repository
+Complete all tasks in sequence.
 
+<<<<<<< HEAD
 ---
 
 ## GitHub Repository URL
 
 Paste your forked repository URL here:
 
+<<<<<<< HEAD
 `__________________________`
+=======
+`github`https://github.com/AIN0908/devops-micro-internship-pravinmishra/tree/main/week-02-agentic-ai
+=======
+Your submission must include:
+- All 9 required screenshots
+>>>>>>> 68a42de (Week 02 Assignment 6 template updated)
+>>>>>>> a275b6b (update)
 
 ---
 
