@@ -131,8 +131,8 @@ This is not a course. It is an internship-style program — real deployments, re
 | 00 | Internet & Networking Basics | ✅ Completed| ✅ Completed | ✅ Completed— | — |
 | 01 | Success Mindset | ✅ Completed | ✅ Completed | ✅ Completed | — |
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed| ✅ Completed | — |
-| 03 | Linux for DevOps | ✅ Completed | ✅ Completed| — | — |✅ Completed<br>
-| 04 | Bash Scripting | ✅ Completed | ✅ Completed | — | — |✅ Completed<br>
+| 03 | Linux for DevOps | ✅ Completed | ✅ Completed|✅ Completed | ✅ Completed
+| 04 | Bash Scripting | ✅ Completed | ✅ Completed |✅ Completed| ✅ Completed<br>
 | 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
