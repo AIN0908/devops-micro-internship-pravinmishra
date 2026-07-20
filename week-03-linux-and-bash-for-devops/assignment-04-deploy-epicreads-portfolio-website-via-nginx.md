@@ -120,7 +120,7 @@ Verify the deployed website and Nginx service are healthy.
 
 
 
-`Add your URL here`
+
 
 https://www.linkedin.com/posts/abraham-inwang-695a67216_today-i-deployed-the-epicreads-portfolio-share-7483260552270655489-L0mg/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaeMREBp9wR-dEl9T_L6Ru07p5uCgcZniE
 

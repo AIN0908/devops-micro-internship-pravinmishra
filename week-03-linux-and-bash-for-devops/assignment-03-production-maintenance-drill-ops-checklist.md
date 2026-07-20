@@ -463,9 +463,6 @@ Leaving unused resources running creates unnecessary risks and wastes money.
 #### LinkedIn Post URL
 
 
-
-`Add your URL here`
-
 https://www.linkedin.com/posts/abraham-inwang-695a67216_todays-real-life-task-deploy-a-react-share-7482784747207786496-C6d8/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaeMREBp9wR-dEl9T_L6Ru07p5uCgcZniE
 
 #### Screenshot — Published LinkedIn post
