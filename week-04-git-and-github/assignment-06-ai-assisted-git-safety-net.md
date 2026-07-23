@@ -227,9 +227,10 @@ Push your branch and open a real Pull Request, using `/pr-ready`'s drafted title
 
 **2. If you had blindly copy-pasted the AI's draft without reading it, what could go wrong?**
 
+The draft might contain a placeholder that looks like a real AWS key (AKIA...). Even if fake, scanners will block it, or worse, if real, you’d expose credentials in Git history permanently.
 
 
----
+In regulated environments, blindly committing AI‑generated content could violate rules that require human review and approval.
 
 **3. Why does this PR need to target your own fork instead of the shared upstream repository?**
 
@@ -259,7 +260,11 @@ Explain this assignment's workflow using the same Gather → Analyze → Human A
 
 **3. Which step is Human Act, and why must a human — not Claude — run `git commit`, `git push`, and open the PR?**
 
+git commit → This is a human act because it requires you to decide what changes are ready to be recorded in history. A commit is a deliberate checkpoint in your project, and only you can judge whether the code is correct, safe, and meaningful.
 
+git push → Also a human act. Pushing sends your local commits to the shared remote repository. This is a conscious decision to share your work with others. If an AI did this automatically, it could overwrite or expose code without your consent.
+
+Opening a Pull Request (PR) → Definitely human. A PR is not just a technical action; it’s a communication act. You’re telling teammates: “Here are my changes, please review them.” It involves writing context, explaining intent, and inviting collaboration. That requires human judgment, not automation.
 
 ---
 
@@ -285,9 +290,7 @@ Publish a LinkedIn post summarizing what you built and what you learned about co
 
 #### LinkedIn Post URL
 
-
-
----
+https://www.linkedin.com/posts/abraham-inwang-695a67216_devops-devops-aws-ugcPost-7486031009688408064-1btv/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaeMREBp9wR-dEl9T_L6Ru07p5uCgcZniE
 
 ## Key Learnings
 
@@ -315,9 +318,7 @@ Add 3-5 bullet points on what you learned this week.
 
 Paste your forked repository URL here:
 
-`Add your URL here`
-
----
+https://github.com/AIN0908/devops-micro-internship-pravinmishra
 
 # Completion Checklist
 
